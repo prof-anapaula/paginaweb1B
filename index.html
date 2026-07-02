@@ -56,7 +56,7 @@ botao.addEventListener("click", botaoClicado);
 function botaoClicado() {
     consoloe.log("fui clicado");
 let texto = botao.querySelector("span");
-texto.textContent++;
+texto.textContent = Number(texto.textContent) + 1;
 }
 </script>
 </html>
